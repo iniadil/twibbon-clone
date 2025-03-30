@@ -1,26 +1,48 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Twibbon Generator - Next.js
 
-## Getting Started
+A twibbon (profile picture frame) generator application built with Next.js. This allows users to upload their profile picture and apply custom frames/templates.
 
-First, run the development server:
+## Features
+
+- Upload profile pictures
+- Apply various frame templates
+- Preview before downloading
+- Responsive design for all devices
+
+## Getting Started with Twibbon Generator
+
+First, install dependencies:
+
+```bash
+npm install
+# or
+yarn install
+```
+
+Then run the development server:
 
 ```bash
 npm run dev
 # or
 yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open [http://localhost:3000](http://localhost:3000) in your browser to use the application.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## How to Use
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+1. Click "Upload Photo" to select your profile picture
+2. Choose a frame template from the available options
+3. Adjust the position and size of your photo within the frame
+4. Click "Download" to save your twibbon
 
-## Learn More
+## Project Structure
+
+- `app/page.tsx` - Main application page
+- `public/frame.png` - Default frame template
+- `TWIBBON_PLAN.md` - Project planning document
+
+## Learn More About Next.js
 
 To learn more about Next.js, take a look at the following resources:
 
